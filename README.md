@@ -28,9 +28,9 @@ GET request to "/restaurants" route with a subset of the following parameters:
 - openAt (time format of "HH:MM")
 
 E.g.
-"restaurantapp123.azurewebsites.net/restaurants?vegetarian=yes&style=Italian&openAt=15:30"
-"restaurantapp123.azurewebsites.net/restaurants?doesDeliveries=yes&openAt=22:00"
-"restaurantapp123.azurewebsites.net/restaurants?name=Cafe+Cafe"
+- "restaurantapp123.azurewebsites.net/restaurants?vegetarian=yes&style=Italian&openAt=15:30"
+- "restaurantapp123.azurewebsites.net/restaurants?doesDeliveries=yes&openAt=22:00"
+- "restaurantapp123.azurewebsites.net/restaurants?name=Cafe+Cafe"
 
 
 
