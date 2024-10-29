@@ -19,5 +19,8 @@ az webapp deployment source update-token
 
 
 cd terraform
+
+echo "github_auth_token = \"${gh_token}\"" >> terraform.tfvars
+
 terraform init
-terraform apply -auto-approve -var="github_auth_token=${gh_token}"
+terraform apply -auto-approve
