@@ -4,7 +4,7 @@ Prerequisites for creating Azure resources
 - Install Azure CLI tool
 - Authenticate to Azure subscription (az login, az account set --subscription "<subscription-id>", etc..)
 - Create a Service Principal ?
-- Github token - provided by Ori.
+- Github token - need to be generated and provided by Ori, repository owner.
 The github token is used to connect the Azure Web App to the Github repository for the CI/CD using Github Actions.
 
 
