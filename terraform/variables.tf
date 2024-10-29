@@ -11,7 +11,7 @@ variable "web_app_name" {
 }
 
 variable "github_url" {
-  default = "https://github.com/oritzadok/demo2.git"
+  default = "https://github.com/oritzadok/restaurant-assignment.git"
 }
 
 variable "github_auth_token" {}
