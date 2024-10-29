@@ -5,7 +5,7 @@ gh_token=$1
 ## Prerequisite:
 ## Install gh (Github CLI)
 #export GH_TOKEN=${gh_token}
-#gh secret set AZURE_SQL_CONNECTION_STRING --body "Driver={ODBC Driver 18 for SQL Server};Server=tcp:<parameter>.database.windows.net,1433;Database=<parameter>;Uid=<parameter>;Pwd=<parameter>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;" -R oritzadok/<final repo name>
+#gh secret set AZURE_SQL_CONNECTION_STRING --body "Driver={ODBC Driver 18 for SQL Server};Server=tcp:<parameter>.database.windows.net,1433;Database=<parameter>;Uid=<parameter>;Pwd=<parameter>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;" -R oritzadok/restaurant-assignment
 
 
 
